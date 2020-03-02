@@ -1,0 +1,12 @@
+.items__wrapper {
+    display: grid;
+    grid-gap: 1.5em;
+    grid-template-columns: repeat(auto-fill, 400px);
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1500px) {
+    .items__wrapper {
+        justify-content: center;
+    }
+}

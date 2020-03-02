@@ -1,0 +1,98 @@
+.salesrep__wrapper {
+    display: flex;
+    align-items: center;
+    background: #fafafa;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 30px 20px;
+    font-family: Raleway;
+}
+
+.salesrep__pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 110px;
+}
+
+.salesrep__avatar {
+    width: 60px;
+    height: 60px;
+    background: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    border-radius: 50%;
+    margin: 0 0 10px 0;
+}
+
+.salesrep__icon {
+    color: #999;
+}
+
+.salesrep__info {
+
+}
+
+.salesrep__name {
+    /*font-family: Cinzel, serif;*/
+    margin: 0 0 5px 0;
+}
+
+.salesrep__company {
+    margin: 0;
+}
+
+.salesrep__msg-wrapper {
+    position: relative;
+}
+
+.salesrep__message {
+    margin: 0;
+    padding: 20px;
+}
+
+.salesrep__message p {
+    margin: 0;
+}
+
+.salesrep__message p:first-child {
+    margin-bottom: 15px;
+}
+
+.salesrep__quote {
+    position: absolute;
+    color: #aaa;
+}
+
+.salesrep__quote--right{
+    right: 0;
+    bottom: 0;
+}
+
+.salesrep__divider {
+    height: 100px;
+    width: 1px;
+    background: #ccc;
+    margin: 0 40px;
+}
+
+.salesrep__contact{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.salesrep__contact-data {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+.salesrep__contact-icon {
+    margin-right: 5px;
+    font-size: 20px;
+}
