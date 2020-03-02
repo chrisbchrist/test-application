@@ -130,3 +130,13 @@
         margin-bottom: 10px;
     }
 }
+
+@media screen and (max-width: 532px) {
+    .salesrep__message p {
+        text-align: center;
+    }
+
+    .salesrep__contact {
+        justify-content: center;
+    }
+}
