@@ -6,7 +6,7 @@ import React, {
   useState
 } from "react";
 import "./App.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Data from "./test.json";
 import { Navbar } from "./components/Navbar/Navbar";
 import { ItemList } from "./components/ItemList/ItemList";
@@ -34,7 +34,7 @@ function App() {
     };
   }, [data, activeItem]);
 
-  console.log(data);
+
   return (
     <AppContext.Provider value={context}>
       <Router>

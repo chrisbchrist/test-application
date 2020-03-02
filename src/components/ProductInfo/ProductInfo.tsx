@@ -46,6 +46,7 @@ export const ProductInfo: FunctionComponent<
           <div className="product__details">
             <h2 className="product__name">{item.ItemName}</h2>
             <img
+                alt={""}
                 src={`http://images.repzio.com/productimages/${item.ManufacturerID}/logo${item.ManufacturerID}_lg.jpg?width=100`}
                 className="product__logo"
             />

@@ -1,4 +1,4 @@
-import React, {FunctionComponent, useContext} from 'react';
+import React, {FunctionComponent} from 'react';
 import './Navbar.css';
 import { FiBox} from "react-icons/fi";
 import {Link} from "react-router-dom";

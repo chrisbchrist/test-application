@@ -90,9 +90,43 @@
     display: flex;
     align-items: center;
     margin-right: 15px;
+    width: 150px;
 }
 
 .salesrep__contact-icon {
     margin-right: 5px;
     font-size: 20px;
+}
+
+@media screen and (max-width: 1225px) {
+    .salesrep__wrapper {
+        flex-wrap: wrap;
+    }
+
+    .salesrep__pic {
+        margin-right: 30px;
+    }
+    .salesrep__divider {
+        display: none;
+    }
+
+    .salesrep__info {
+        margin-right: 20px;
+    }
+
+    .salesrep__contact {
+        width: 100%;
+        padding-top: 20px;
+    }
+
+}
+
+@media screen and (max-width: 879px) {
+    .salesrep__wrapper {
+        justify-content: center;
+    }
+
+    .salesrep__pic {
+        margin-bottom: 10px;
+    }
 }
