@@ -13,6 +13,12 @@
   padding: 40px 10%;
 }
 
+@media screen and (max-width: 500px) {
+  .content {
+    padding: 30px 5%;
+  }
+}
+
 .company {
   display: flex;
   padding-left: 20px;
@@ -21,7 +27,7 @@
 
 .company-name {
   font-family: Cinzel;
-  margin: 0;
+  margin: 15px 0 0 0;
 }
 
 .company__img {
